@@ -2435,7 +2435,7 @@ hr,
   text-overflow: ellipsis;
   white-space: nowrap;
 }
-/* flex??  */
+/* flex布局  */
 .flex-row,
 .flex-column,
 .flex-row-vertical {
@@ -2458,14 +2458,14 @@ hr,
   -ms-flex-direction: column;
   flex-direction: column;
 }
-/* ???? */
+/* 多行布局 */
 .flex-row-wrap,
 .flex-column {
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
 }
-/* ??????? */
+/* 子元素反向排列 */
 .flex-row-reverse {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: reverse;
@@ -2473,7 +2473,7 @@ hr,
   -ms-flex-direction: row-reverse;
   flex-direction: row-reverse;
 }
-/* ????????? */
+/* 子元素默认平均分布 */
 .flex-row > * {
   display: block;
 }
@@ -2483,21 +2483,21 @@ hr,
   -ms-flex: 1;
   flex: 1;
 }
-/* ???? */
+/* 垂直居中 */
 .flex-middle {
   -webkit-box-align: center;
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
 }
-/* ???? */
+/* 底部对齐 */
 .flex-bottom {
   -webkit-box-align: end;
   -webkit-align-items: flex-end;
   -ms-flex-align: end;
   align-items: flex-end;
 }
-/* ????????? */
+/* 沿主轴方向排列方式 */
 .flex-justify-start {
   -webkit-box-pack: start;
   -webkit-justify-content: flex-start;
@@ -2516,7 +2516,7 @@ hr,
   -ms-flex-pack: justify;
   justify-content: space-between;
 }
-/* ????????? */
+/* 沿侧轴方向排列方式 */
 .flex-align-start {
   -webkit-align-content: flex-start;
   -ms-flex-line-pack: start;
@@ -2867,7 +2867,7 @@ hr,
   text-align: center;
 }
 .footer p span:not(:first-child):before {
-  content: "�";
+  content: "·";
   padding: 0 .5em;
 }
 .footer p a {
@@ -2891,7 +2891,7 @@ hr,
 .footer .bottom {
   padding: 16px;
 }
-a[title="????"] {
+a[title="站长统计"] {
   display: none;
 }
 @media screen and (max-width: 1240px) {
@@ -3249,7 +3249,7 @@ pre .javascript .function {
   overflow: hidden;
 }
 .post-meta > *:not(:first-child):before {
-  content: "�";
+  content: "·";
   padding: 0 .5em;
 }
 .article-category-list {
@@ -3265,7 +3265,7 @@ pre .javascript .function {
   padding-left: 0;
 }
 .article-category-list-child:before {
-  content: "�";
+  content: "›";
   padding: 0 .3em;
   font-size: 120%;
 }
@@ -3598,7 +3598,7 @@ pre .javascript .function {
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2), 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 .page-share .share-icons a:before {
-  content: '???' attr(data-title);
+  content: '分享到' attr(data-title);
 }
 .page-share .share-icons li {
   margin-bottom: 10px;
